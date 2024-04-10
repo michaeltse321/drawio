@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" modified="2024-04-10T07:20:47.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 OPR/108.0.0.0" etag="hZjR2lOS0LeTBQ6jotkA" version="24.2.1" type="github">
+  <diagram name="Page-1" id="IRL3qGAE4YPLIIUbTOw6">
+    <mxGraphModel dx="1320" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-32" value="Data Center 3 - Standalone" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="42" y="455" width="369" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-33" value="Tertio Application - Single Node" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="81" y="512" width="200" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-35" value="Disk Storage 3" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="201" y="660" width="116" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-36" value="DB3" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="81" y="700" width="94" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-37" value="Data Center 2 - DA Node 2" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="445" y="40" width="361" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-38" value="Tertio Application - DA Node 2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="80" width="241" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-40" value="Disk Storage 2" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="482" y="257" width="116" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-41" value="Oracle RAC - Active DB 2" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="614" y="310" width="94" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-42" value="Data Center 1 - DA Node 1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="42" y="40" width="369" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-43" value="Tertio Application - DA Node 1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="81" y="80" width="201.5" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-45" value="Disk Storage 1" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="215" y="250" width="116" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-46" value="Oracle RAC - Active DB 1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="81" y="310" width="94" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-47" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.5005387931034483;entryY=0;rounded=0;exitX=0.96;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jgJDr5MEXqc9StyKv2Xj-43" target="jgJDr5MEXqc9StyKv2Xj-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="273" y="110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-49" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.49742353723404253;entryY=0;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jgJDr5MEXqc9StyKv2Xj-43" target="jgJDr5MEXqc9StyKv2Xj-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="170.87454490291248" y="316" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.4978448275862069;entryY=0;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jgJDr5MEXqc9StyKv2Xj-38" target="jgJDr5MEXqc9StyKv2Xj-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-52" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jgJDr5MEXqc9StyKv2Xj-38" target="jgJDr5MEXqc9StyKv2Xj-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="674" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-53" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.5013133081896551;entryY=0.0019658032585592833;rounded=0;exitX=0.897;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jgJDr5MEXqc9StyKv2Xj-33" target="jgJDr5MEXqc9StyKv2Xj-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="261" y="550" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.5016206781914894;entryY=0.004050746108546402;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jgJDr5MEXqc9StyKv2Xj-33" target="jgJDr5MEXqc9StyKv2Xj-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="247.15056782961938" y="594" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-58" value="Data Guard Replication" style="curved=1;startArrow=block;endArrow=block;entryX=1;entryY=0.5;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jgJDr5MEXqc9StyKv2Xj-41" target="jgJDr5MEXqc9StyKv2Xj-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="941" y="400" as="sourcePoint" />
+            <mxPoint x="98" y="415.9818953887559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jgJDr5MEXqc9StyKv2Xj-59" value="Shared Disk Sync" style="curved=1;startArrow=block;endArrow=block;exitX=1;exitY=0.5;entryX=-0.0020204741379310346;entryY=0.2848385308854066;rounded=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jgJDr5MEXqc9StyKv2Xj-45" target="jgJDr5MEXqc9StyKv2Xj-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
